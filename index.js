@@ -18,8 +18,10 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   var newArray = [];
+  var par = n;
   do{
-    
-  } while();
+    newArray = [...newArray, 'I love the Beatles!'];
+    par++;
+  } while(par<15);
   return newArray;
 }
